@@ -6,8 +6,6 @@ Course Name: Programming Foundations: Object-Oriented Design
 Auth:  Olivia Chiu Stone and Barron Stone
 
 
-Day 1: 
-
 The whole point of OOP is to create re-usable objects but also objects that can be slightly modified later to serve similar but slightly variable purposes. This is why and more importantly when it is better than procedural programming like in C or what I always thought of as spaghetti code.
 
 Attributes tell us more about each object. Some attributes might be fixed but others might vary over the object's lifetime.
