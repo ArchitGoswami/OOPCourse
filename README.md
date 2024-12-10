@@ -76,8 +76,9 @@ Encapsulation also helps keep separate clean code and only singular changes are 
 ![image_68](https://github.com/user-attachments/assets/4e84d067-7c7c-4151-bb6c-d807523738c8)
 ![image_67](https://github.com/user-attachments/assets/bcaf3a29-d20a-44b6-bb06-3f762e1adfcd)
 
-<img src="https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95" alt="Alt Text" width="300" height="200">
+<img src="https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95" alt="Alt Text" width="500">
 The above 2 classes can inherit a common class due to several shared attributes and methods. Thus we get:
+
 ![image_66](https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95)
 
 
