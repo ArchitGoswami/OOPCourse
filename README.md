@@ -46,7 +46,7 @@ Method VS Function:
 
 Class diagram:
 
-![image_65](https://github.com/user-attachments/assets/0580e4f0-6dd6-4e07-9802-43ee625b4357)
+<img src="https://github.com/user-attachments/assets/0580e4f0-6dd6-4e07-9802-43ee625b4357" alt="Alt Text" height="300">
 
 
 Instances: creating an instance of an object using a class is called instantiation. Calling a method of an instance of an object only affects the attributes of the class.
