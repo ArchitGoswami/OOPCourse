@@ -67,13 +67,18 @@ aka A-PIE
 We only focus on the essential ideas of an object hence answering "What does this class look like at this point for this application?".
 
 
-2) Encapsulation: containing the attributes and methods (that use and manipulate the attributes of the class) within the class to improve readability and safety. This forces other classes to use methods in the original class of the object to make changes to said object. Helps maintain consistency across several places in code where the object is created for that class, prevents/helps manage edge cases and invalid updates to attributes, etc.
+2) <ins>Encapsulation</ins>: containing the attributes and methods (that use and manipulate the attributes of the class) within the class to improve readability and safety. This forces other classes to use methods in the original class of the object to make changes to said object. Helps maintain consistency across several places in code where the object is created for that class, prevents/helps manage edge cases and invalid updates to attributes, etc.
 
 Encapsulation creates a black box that prevents outsiders from knowing how a class works. However, we know its expected behavior so we can test via black box testing.
 
-Encapsulation also helps keep separate clean code and only singular changes are needed (this means you don't have to chase down same section of code written in n places and maybe miss a couple and have it cause issues.
+Encapsulation also helps keep separate clean code and only singular changes are needed (this means you don't have to chase down the same section of code written in n places and maybe miss a couple and have it cause issues.
    
-3) inhert 
+3) <ins>Inhertiance</ins>: if we want to create a new class that is very similar to an older already existing class then we can leverage the older class using inheritance. This helps us reuse code. This will pull in attributes and methods from the parent class.
+
+![image_67](https://github.com/user-attachments/assets/bcaf3a29-d20a-44b6-bb06-3f762e1adfcd)
+![image_66](https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95)
+The above 2 classes can inherit a common class due to several shared attributes and methods. Thus we get
+![image_68](https://github.com/user-attachments/assets/4e84d067-7c7c-4151-bb6c-d807523738c8)
 
 
 
