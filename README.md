@@ -76,7 +76,9 @@ Encapsulation also helps keep separate clean code and only singular changes are 
 
 <img src="https://github.com/user-attachments/assets/4e84d067-7c7c-4151-bb6c-d807523738c8" alt="Alt Text" height="300">
 <img src="https://github.com/user-attachments/assets/bcaf3a29-d20a-44b6-bb06-3f762e1adfcd" alt="Alt Text" height="300">
+
 The above 2 classes can inherit a common class due to several shared attributes and methods. Thus we get:
+
 <img src="https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95" alt="Alt Text" width="500">
 
 
