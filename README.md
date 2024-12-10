@@ -22,12 +22,14 @@ Objects are created in/from classes.
 
 Classes can be thought of as a template of what an object can be. But it is not the object itself. We can use a single class to create several objects.
 
+An object is an instance of a class.
+
 Different classes help us create different types of objects.
 
 Classes have:
 1) name
 2) attributes (aka properties and data)
-3) behaviors (what I know as functions or also known as operations or method)
+3) behaviors (what I know as functions or also known as operations or methods)
 
 For a node it would be:
 
@@ -50,5 +52,28 @@ Class diagram:
 
 
 Instances: creating an instance of an object using a class is called instantiation. Calling a method of an instance of an object only affects the attributes of the class.
+
+4 fundamental ideas in OOP:
+
+  1) Abstraction
+  2) Polymorphism
+  3) Inheritance
+  4) Encapsulation
+
+aka A-PIE
+
+1) <ins>Abstraction</ins>: We focus on one specific quality of something vs focusing on a particular example of that kind of object. Hence you know the attributes potentially associated with the object (and hence the class). Abstraction means the idea of a class differs from any particular instance of an object based on said class. Abstraction helps us decide how to create classes. I.E. Abstraction tells us the repeated properties that will be needed to create several instances of an object without having to create several classes for each object when it can just be 1 class.
+
+We only focus on the essential ideas of an object hence answering "What does this class look like at this point for this application?".
+
+
+2) Encapsulation: containing the attributes and methods (that use and manipulate the attributes of the class) within the class to improve readability and safety. This forces other classes to use methods in the original class of the object to make changes to said object. Helps maintain consistency across several places in code where the object is created for that class, prevents/helps manage edge cases and invalid updates to attributes, etc.
+
+Encapsulation creates a black box that prevents outsiders from knowing how a class works. However, we know its expected behavior so we can test via black box testing.
+
+Encapsulation also helps keep separate clean code and only singular changes are needed (this means you don't have to chase down same section of code written in n places and maybe miss a couple and have it cause issues.
+   
+3) inhert 
+
 
 
