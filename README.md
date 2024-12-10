@@ -73,10 +73,10 @@ Encapsulation also helps keep separate clean code and only singular changes are 
    
 3) <ins>Inhertiance</ins>: if we want to create a new class that is very similar to an older already existing class then we can leverage the older class using inheritance. This helps us reuse code. This will pull in attributes and methods from the parent class.
 
-![image_67](https://github.com/user-attachments/assets/bcaf3a29-d20a-44b6-bb06-3f762e1adfcd)
-![image_66](https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95)
-The above 2 classes can inherit a common class due to several shared attributes and methods. Thus we get
 ![image_68](https://github.com/user-attachments/assets/4e84d067-7c7c-4151-bb6c-d807523738c8)
+![image_67](https://github.com/user-attachments/assets/bcaf3a29-d20a-44b6-bb06-3f762e1adfcd)
+The above 2 classes can inherit a common class due to several shared attributes and methods. Thus we get
+![image_66](https://github.com/user-attachments/assets/cf47f25e-c9f4-4e30-8352-e8927d2aff95)
 
 
 
